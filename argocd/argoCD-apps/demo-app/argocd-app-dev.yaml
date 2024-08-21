@@ -13,7 +13,6 @@ spec:
       valueFiles:
         - dev.yaml
     path: helm/demo-app
-    repoURL: https://github.com/yaronpri/gitops-argocd-demo
     targetRevision: main
   syncPolicy: 
     syncOptions:
